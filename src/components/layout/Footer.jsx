@@ -17,7 +17,7 @@ const Footer = () => {
               className="inline-block"
             >
               <img
-                src="https://i.ibb.co/YB7krFJd/Beauty-Plus-20250612114734874-save.jpg"
+                src="https:                                                           
                 alt="Anwar Dahir Yahaya"
                 className="w-32 h-32 rounded-full mx-auto border-4 border-gold mb-4"
               />
@@ -38,7 +38,7 @@ const Footer = () => {
 
             <div className="flex justify-center gap-4 mt-4">
               <a
-                href="https:                        
+                href="https://github.com/Mranwar001"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
@@ -46,7 +46,7 @@ const Footer = () => {
                 <Github size={20} className="text-gold" />
               </a>
               <a
-                href="https://www.linkedin.com/in/anwar-dahiru-yahaya-3a21492a1"
+                href="https:                                                    
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
@@ -66,7 +66,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Copyright */}
+          {               }
           <div className="text-center text-sm text-gray-500">
             <p>© {new Date().getFullYear()} Ramadan Legacy. All rights reserved.</p>
             <p className="mt-2">Built with ❤️ for the sake of Allah 🤍</p>
