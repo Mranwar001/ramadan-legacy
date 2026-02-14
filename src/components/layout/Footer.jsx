@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <footer className="border-t border-gold/20 py-12">
       <div className="container mx-auto px-4">
-        {/* PDF Content Wrapper - Everything that will be exported */}
         <div id="pdf-content" className="space-y-12">
           {/* Branding Section */}
           <div className="text-center">
@@ -46,15 +45,14 @@ const Footer = () => {
               >
                 <Github size={20} className="text-gold" />
               </a>
- <a
-  href="https:                                                    
-  target="_blank"
-  rel="noopener noreferrer"
-  className="p-2 rounded-full hover:bg-gold/20 transition"
->
-  <Linkedin size={20} className="text-gold" />
-</a>
-
+              <a
+                href="https://www.linkedin.com/in/anwar-dahiru-yahaya-3a21492a1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-full hover:bg-gold/20 transition"
+              >
+                <Linkedin size={20} className="text-gold" />
+              </a>
             </div>
 
             <div className="mt-6">
