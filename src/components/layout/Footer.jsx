@@ -39,7 +39,7 @@ const Footer = () => {
 
             <div className="flex justify-center gap-4 mt-4">
               <a 
-                href="https://github.com/Mranwar001" 
+                href="https://github.com/Mranwar001"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
