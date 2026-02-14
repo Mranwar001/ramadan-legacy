@@ -47,7 +47,7 @@ const Footer = () => {
                 <Github size={20} className="text-gold" />
               </a>
               <a 
-                href="https://linkedin.com/in/yourlinkedin" 
+                href="https://linkedin.com/in//anwardahiryahaya" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
@@ -58,7 +58,7 @@ const Footer = () => {
 
             <div className="mt-6">
               <Button
-                onClick={() => window.location.href = 'anwarcscience@gmail.com'}
+                onClick={() => window.location.href = 'mailto:anwarcscience@gmail.com'}
                 variant="primary"
                 className="mx-auto"
               >
