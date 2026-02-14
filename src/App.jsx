@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-navy text-white">
+    <div id="pdf-content" className="min-h-screen bg-navy text-white">
       <Navbar />
       
       <motion.main
