@@ -29,17 +29,17 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center gap-6 mt-4">
               <div className="flex items-center gap-2">
                 <Phone size={16} className="text-gold" />
-                <span>+234-XXXXXXXXXX</span>
+                <span>+234-8109770991</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-gold" />
-                <span>yourmail@email.com</span>
+                <span>anwarcscience@gmail.com</span>
               </div>
             </div>
 
             <div className="flex justify-center gap-4 mt-4">
               <a 
-                href="https://github.com/yourgithub" 
+                href="https://github.com/Mranwar001" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
@@ -58,11 +58,11 @@ const Footer = () => {
 
             <div className="mt-6">
               <Button
-                onClick={() => window.location.href = 'mailto:yourmail@email.com'}
+                onClick={() => window.location.href = 'anwarcscience@gmail.com'}
                 variant="primary"
                 className="mx-auto"
               >
-                Hire Me For Your Website
+                Hire Me For Your Website 
               </Button>
             </div>
           </div>
