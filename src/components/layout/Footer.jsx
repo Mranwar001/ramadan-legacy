@@ -46,7 +46,7 @@ const Footer = () => {
               >
                 <Github size={20} className="text-gold" />
               </a>
-              <a
+                            <a
                 href="https://linkedin.com/in/anwardahiryahaya"
                 target="_blank"
                 rel="noopener noreferrer"
