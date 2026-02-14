@@ -29,7 +29,7 @@ const Footer = () => {
             <div className="flex flex-wrap justify-center gap-6 mt-4">
               <div className="flex items-center gap-2">
                 <Phone size={16} className="text-gold" />
-                <span>+234-8109770991</span>
+                <span>+234 8109770991</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={16} className="text-gold" />
@@ -47,7 +47,7 @@ const Footer = () => {
                 <Github size={20} className="text-gold" />
               </a>
               <a 
-                href="https://linkedin.com/in//anwardahiryahaya" 
+                href="https://linkedin.com/in/anwardahiryahaya" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
