@@ -46,14 +46,15 @@ const Footer = () => {
               >
                 <Github size={20} className="text-gold" />
               </a>
-                            <a
-                href="https://linkedin.com/in/anwardahiryahaya"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-full hover:bg-gold/20 transition"
-              >
-                <Linkedin size={20} className="text-gold" />
-              </a>
+ <a
+  href="https:                                                    
+  target="_blank"
+  rel="noopener noreferrer"
+  className="p-2 rounded-full hover:bg-gold/20 transition"
+>
+  <Linkedin size={20} className="text-gold" />
+</a>
+
             </div>
 
             <div className="mt-6">
