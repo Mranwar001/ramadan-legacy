@@ -17,8 +17,8 @@ const Footer = () => {
               transition={{ duration: 0.5 }}
               className="inline-block"
             >
-              <img 
-                src="/profile-placeholder.jpg" 
+              <img
+                src="/profile-placeholder.jpg"
                 alt="Anwar Dahir Yahaya"
                 className="w-32 h-32 rounded-full mx-auto border-4 border-gold mb-4"
               />
@@ -38,17 +38,17 @@ const Footer = () => {
             </div>
 
             <div className="flex justify-center gap-4 mt-4">
-              <a 
-                href="https://github.com/Mranwar001"
-                target="_blank" 
+              <a
+                href="https:                        
+                target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
               >
                 <Github size={20} className="text-gold" />
               </a>
-              <a 
-                href="https://linkedin.com/in/anwardahiryahaya" 
-                target="_blank" 
+              <a
+                href="https://linkedin.com/in/anwardahiryahaya"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-full hover:bg-gold/20 transition"
               >
@@ -58,11 +58,11 @@ const Footer = () => {
 
             <div className="mt-6">
               <Button
-                onClick={() => window.location.href = 'mailto:anwarcscience@gmail.com'}
+                onClick={() => (window.location.href = 'mailto:anwarcscience@gmail.com')}
                 variant="primary"
                 className="mx-auto"
               >
-                Hire Me For Your Website 
+                Hire Me For Your Website
               </Button>
             </div>
           </div>
