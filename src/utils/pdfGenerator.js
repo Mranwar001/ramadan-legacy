@@ -1,20 +1,50 @@
-import html2pdf from "html2pdf.js";
+import jsPDF from "jspdf";
+import html2canvas from "html2canvas";
 
-export const generatePDF = () => {
+export const generatePDF = async () => {
   const element = document.getElementById("pdf-content");
 
   if (!element) {
-    alert("PDF content not found.");
+    alert("Content not found for PDF generation.");
     return;
   }
 
-  const options = {
-    margin: 0.5,
-    filename: "Ramadan_Legacy_By_Anwar_Dahir_Yahaya.pdf",
-    image: { type: "jpeg", quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true },
-    jsPDF: { unit: "in", format: "a4", orientation: "portrait" },
-  };
+  try {
+    const canvas = await html2canvas(element, {
+      scale: 2,
+      useCORS: true,
+      scrollY: -window.scrollY,
+    });
 
-  html2pdf().set(options).from(element).save();
+    const imgData = canvas.toDataURL("image/png");
+
+    const pdf = new jsPDF("p", "mm", "a4");
+
+    const pdfWidth = pdf.internal.pageSize.getWidth();
+    const pdfHeight = pdf.internal.pageSize.getHeight();
+
+    const imgWidth = pdfWidth;
+    const imgHeight = (canvas.height * imgWidth) / canvas.width;
+
+    let heightLeft = imgHeight;
+    let position = 0;
+
+    // First page
+    pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+    heightLeft -= pdfHeight;
+
+    // Extra pages if content is long
+    while (heightLeft > 0) {
+      position = heightLeft - imgHeight;
+      pdf.addPage();
+      pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+      heightLeft -= pdfHeight;
+    }
+
+    pdf.save("Ramadan-Legacy-Plan.pdf");
+
+  } catch (error) {
+    console.error("PDF generation failed:", error);
+    alert("Something went wrong while generating the PDF.");
+  }
 };
