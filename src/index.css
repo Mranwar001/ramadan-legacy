@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-navy text-white font-sans;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-navy-light/30 backdrop-blur-md border border-gold/20 rounded-2xl;
+  }
+  
+  .gold-gradient {
+    @apply bg-gradient-to-r from-gold to-gold-light;
+  }
+  
+  .navy-gradient {
+    @apply bg-gradient-to-b from-navy to-navy-light;
+  }
+}
