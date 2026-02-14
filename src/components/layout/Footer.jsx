@@ -17,7 +17,7 @@ const Footer = () => {
               className="inline-block"
             >
               <img
-                src="https://ibb.co/whNWvF8Q"
+                src="https://i.ibb.co/YB7krFJd/Beauty-Plus-20250612114734874-save.jpg"
                 alt="Anwar Dahir Yahaya"
                 className="w-32 h-32 rounded-full mx-auto border-4 border-gold mb-4"
               />
