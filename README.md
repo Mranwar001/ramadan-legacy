@@ -391,10 +391,10 @@ of this software and associated documentation files...
 ### **Anwar Dahir Yahaya**
 *Front-End Developer*
 
-[![Email](https://img.shields.io/badge/Email-yourmail@email.com-gold?style=flat-square&logo=gmail)](mailto:yourmail@email.com)
-[![Phone](https://img.shields.io/badge/Phone-%2B234-XXXXXXXXXX-gold?style=flat-square&logo=whatsapp)](tel:+234XXXXXXXXXX)
-[![GitHub](https://img.shields.io/badge/GitHub-@yourgithub-gold?style=flat-square&logo=github)](https://github.com/yourgithub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-@yourlinkedin-gold?style=flat-square&logo=linkedin)](https://linkedin.com/in/yourlinkedin)
+[![Email](https://img.shields.io/badge/Email-yourmail@email.com-gold?style=flat-square&logo=gmail mailto:anwarcscience@gmail.com
+[![Phone](https://img.shields.io/badge/Phone-%2B234-XXXXXXXXXX-gold?style=flat-square&logo=whatsapp tel:+2338109770991
+[![GitHub](https://img.shields.io/badge/GitHub-@yourgithub-gold?style=flat-square&logo=github https://github.com/Mranwaroo1
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-@yourlinkedin-gold?style=flat-square&logo=linkedin)](https://linkedin.com/in/anwardahiryahaya
 
 **📍 Location:** Nigeria  
 **💼 Available for:** Front-End Development Projects
